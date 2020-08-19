@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav .half-width {
+    width: 100%;
+    text-align: right;
+    padding: 20px 0px;
+}
+
+nav p {
+    text-align: left;
+    font-size: 1.9em;
+    padding-left: 45px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 45px;
+    font-size: 1.9em;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* HERO */
+
+#hero {
+    background-image: url("file:///C:/Users/avata/Documents/Portfolio-website/img/assets/hero-background.png");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero span {
+    color: #fa0075;
+}
+
+#hero h1 {
+    margin: 0px;
+    font-size: 4.5em;
+    padding-left: 100px;
+}
+
+/* PORTOFOLIO */
+
+h2 {
+    color: #fa0075;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 0 100px;
+}
+
+.container .half-width {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.container .half-width img {
+    border: 1px solid #b7b7b7;
+}
+
+.container .half-width img:hover {
+    opacity: 0.8;
+}
+
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container a:hover {
+    color: #fa0075;
+}
+
+#rogue-text {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#jubilee-text {
+    text-align: right;
+    padding-right: 50px;
+}
+
+#recipe-text {
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* ABOUT */
+
+#about {
+    background-image: url("file:///C:/Users/avata/Documents/Portfolio-website/img/assets/about-me.png");
+    background-size: cover;
+    height: 550px;
+}
+
+#about .half-width {
+    width: 600px;
+    padding-left: 100px;
+    font-size: 1.5em;
+    color: #1f202b;
+}
+
+/* CONTACT */
+
+#container-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.icon {
+    margin: 0px 40px;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+/* FOOTER */
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
