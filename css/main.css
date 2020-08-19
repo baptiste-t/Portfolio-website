@@ -48,7 +48,7 @@ nav a:hover {
 /* HERO */
 
 #hero {
-    background-image: url("img/assets/hero-background.png");
+    background-image: url("../img/assets/hero-background.png");
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -125,7 +125,7 @@ h2 {
 /* ABOUT */
 
 #about {
-    background-image: url("img/assets/about-me.png");
+    background-image: url("../img/assets/about-me.png");
     background-size: cover;
     height: 550px;
 }
